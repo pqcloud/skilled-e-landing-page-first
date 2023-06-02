@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+    <style>
+        .headings{
+            padding: auto;
+        }
+        .headingXl {
+            font-weight: 800;
+            font-size: 56px;
+            line-height: 76px;
+        }
+
+        .headingL {
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 51px;
+        }
+
+        .headingM {
+            font-weight: 800;
+            font-size: 32px;
+            line-height:40px;
+        }
+
+        .headingS {
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        .bodyM {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        .bodyS {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+
+
+        body{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            
+        }
+
+        .get-started {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            border: none;
+            background-color: transparent;
+            border-radius: 20px;
+            padding: 7px;
+        }
+        .top-get-started {
+          background-color:#13183f;
+          color: white;
+          
+        }
+
+        .bottom-get-started{
+            background: linear-gradient(#4851ff, #F02aa6) ;
+            color: white;
+        }
+
+
+        .top-heading{
+            width: 300px;
+            align-self: start;
+        }
+
+
+        .first-get-started{
+            background: linear-gradient(#f02aa6,#ff6f48);
+            font-family: 'Plus Jakarta Sans',sans-serif;
+            padding: 5px;
+            color: white;
+            border: none;
+            border-radius: 20px;
+        }
+        .gridbox {
+
+            display: grid;
+            align-self: start;
+            grid-template-columns: 200px 200px 200px;
+            grid-gap: 10px;
+        }
+
+
+
+
+        .grid1 {
+            color: white;
+            background: linear-gradient(#f02aa6,#ff6f48);
+            box-shadow: 1px 10px 25px 2px #83869a;
+            border-radius: 10px;
+        }
+        .grid2 {
+            box-shadow: 3px 1px 8px #83869a;
+            border-radius: 10px;
+        }
+        .grid3 {
+            box-shadow: 3px 1px 8px #83869a;
+            border-radius: 10px;
+        }
+        .grid4 {
+            box-shadow: 3px 1px 8px #83869a;
+            border-radius: 10px;
+        }
+        .grid5 {
+            box-shadow: 3px 1px 8px #83869a;
+            border-radius: 10px;
+        }
+        .grid6 {
+            box-shadow: 2px 1px 15px #83869a;
+            border-radius: 10px;
+        }
+
+      footer{
+          display: flex;
+          background-color: #13183f;
+          padding: 10px;
+          justify-content: end;
+      }
+
+
+    </style>
+
+</head>
+<body>
+
+    <main>
+    <button class="get-started top-get-started">Get Started</button>
+
+    <header class="top-heading section1">
+
+        <h1 class="headingXL" >Maximize skill, minimize budget</h1>
+        <p class="bodyM">
+            Our modern courses across a range of in-demand skills will give you the
+            knowledge you need to live the life you want.
+        </p>
+
+        <button class="first-get-started get-started">Get Started</button>
+    </header>
+
+
+
+    <div class="gridbox">
+        <div class="grid1">
+            <h2 class="headingM headings grid">Check out our most popular courses!</h2>
+        </div>
+        <div class="grid2">
+            <h2 class="headings headingS ">Animation</h2>
+            <p>
+                Learn the latest animation techniques to create stunning motion
+                design and captivate your audience.
+            </p>
+            <button class="second-get-started get-started">Get Started</button>
+        </div>
+        <div class="grid3">
+            <h2 class="headingS headings">Design</h2>
+            <p>
+                Create beautiful, usable interfaces to help shape the future of
+                how the web looks.
+            </p>
+            <button class="third-get-started get-started">Get Started</button>
+        </div>
+
+        <div class="grid4">
+            <h2 class="headingS headings">Photography</h2>
+            
+            <p>
+                Explore critical fundamentals like lighting, composition, and focus
+                to capture exceptional photos.
+            </p>
+            <button class="fourth-get-started get-started">Get Started</button>
+        </div>
+        <div class="grid5">
+            <h2 class="headingS headings">Crypto</h2>
+            
+            <p class="bodyM">
+                All you need to know to get started investing in crypto. Go from beginner
+                to advanced with this 54 hour course.
+            </p>
+
+            <button class="fifth-get-started get-started">Get Started</button>
+        </div>
+
+        <div class="grid6">
+            <h2 class="headingS headings">Business</h2>
+            <p class="bodyM">
+                A step-by-step playbook to help you start, scale, and sustain your business
+                without outside investment.
+            </p>
+
+            <button class="get-started">Get Started</button>
+        </div>
+    </div>
+ </main>
+
+    <footer>
+        <button class="bottom-get-started get-started">Get Started</button>
+    </footer>
+
+
+
+</body>
+</html>
